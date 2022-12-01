@@ -1,0 +1,43 @@
+body{
+	margin:20px;
+	font-family:georgia,tahoma,sans-serif;
+	
+
+}
+.card{
+	padding:20px;
+	display:flex;
+	width:400px;
+	margin:0 auto;
+	background:grey;
+	justify-content:space-around;
+	text-align:center;
+	border-bottom:5px double green;
+	border-radius:35px;
+	
+	
+}
+.img-file{
+	width:170px;
+	border-radius:25px;
+}
+.in{
+	width:50px;
+	height:50px;
+}
+.border{
+	
+}
+.dotted-border{
+	border:1px dotted grey;
+	color:black;
+	
+
+}
+<!--
+when elements are put in a div container and givven class,display:flex;property takes every elemnt and gives it a column those are differect children of that div
+justify content on the children elements center the elements alone
+center card use the dispaly flex,width,margin left and right to auto
+the text align can be placed either on card class or dotted-grey
+u can use 4 values 0 auto o auto in clockwise way
+-->
